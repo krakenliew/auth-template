@@ -1,0 +1,15 @@
+server:
+    port : 3008
+    origin : "http://nestjs-game-frontend.s3-ap-southeast-1.amazonaws.com"
+  
+db:
+  type: 'mysql'
+  host: 'localhost'
+  port: 3306
+  username: "root"
+  password: 'yourpasswd'
+  database: 'test'
+  synchronize: false
+
+jwt:
+  expiresIn : 30 * 60 * 1000
